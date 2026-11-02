@@ -1,6 +1,8 @@
 # Firefox Video Speed Controller
 
-This is an extension for Firefox that provides a small speed controller only on the sites you specifically choose. This is by far the most intuitive / useful command set I've seen for these, and I wanted one where the source is readily available and easy to understand.
+## Why Another Add-On
+
+This is a *tiny* extension for Firefox that provides a small speed controller only on the sites you specifically choose. This is by far the most intuitive / useful command set I've seen for these, and I wanted one where the source is readily available and easy to understand as well as fully open-source, so here we are.
 
 Importantly, it's also the only video speed controller I've ever seen that implements a variable-speed "breathe" mode which moves the speed up and down so you can watch speech at much faster average rates without losing track.
 
@@ -27,3 +29,7 @@ When switching between geometric ("S" and "D") to decimal ("s" and "d") incremen
 Variable speed mode varies the playback between the current setting and 2x speed, allowing you to watch much faster average video speeds while giving your brain time to catch up and maintaining retention better even than watching on just 2x speed. I don't know fully why this works, but I've been doing it for years, and my suspicion is that it prevents your getting bored by a monotone consistent rhythm and then thinking of speech as background. 
 
 Add or remove sites as desired from the front matter, or change the breathing intervals to be more to your liking.
+
+## Privacy / Security
+
+The code is dead simple, and it's easy to see that it collects absolutely no information, though it will enable easier fingerprinting (by virtue of using an obscure extension) if that's something you're concerned with. The time saved is a huge benefit in exchange, but that trade off is something to be aware of.
