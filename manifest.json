@@ -1,11 +1,12 @@
 {
   "manifest_version": 3,
   "name": "Video Speed Controls",
-  "version": "0.7.4",
+  "version": "0.7.5",
   "description": "HTML5 video and audio speed controller with breathe mode; source-compatible with working FireMonkey userscript.",
   "browser_specific_settings": {
     "gecko": {
-      "id": "video-speed-controls@local.invalid"
+      "id": "ff-vid-speed@mikewillems.com",
+      "data_collection_permissions": { "required": ["none"] }
     }
   },
   "content_scripts": [
