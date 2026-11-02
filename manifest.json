@@ -1,0 +1,64 @@
+{
+  "manifest_version": 3,
+  "name": "Video Speed Controls",
+  "version": "0.7.4",
+  "description": "HTML5 video and audio speed controller with breathe mode; source-compatible with working FireMonkey userscript.",
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "video-speed-controls@local.invalid"
+    }
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "*://*.archive.org/*",
+        "*://archive.org/*",
+        "*://metacafe.com/*",
+        "*://*.bilibili.com/*",
+        "*://bilibili.com/*",
+        "*://*.dailymotion.com/*",
+        "*://dailymotion.com/*",
+        "*://dtube.video/*",
+        "*://frankly.org/",
+        "*://*.instagram.com/*",
+        "*://instagram.com/*",
+        "*://*.dtube.video/*",
+        "*://*.duckduckgo.com/*",
+        "*://duckduckgo.com/*",
+        "*://*.liveleak.com/*",
+        "*://liveleak.com/*",
+        "*://*.msn.com/*",
+        "*://*.metacafe.com/*",
+        "*://*.npr.org/*",
+        "*://*.odysee.com/*",
+        "*://odysee.com/*",
+        "*://*.reddit.com/*",
+        "*://*.redditmedia.com/*",
+        "*://*.reddit.com/*",
+        "*://*.rumble.com/*",
+        "*://rumble.com/*",
+        "*://*.reddit.com/*",
+        "*://reddit.com/*",
+        "*://*.tiktok.com/*",
+        "*://tiktok.com/*",
+        "*://*.twitter.com/*",
+        "*://twitter.com/*",
+        "*://*.veoh.com/*",
+        "*://veoh.com/*",
+        "*://*.vidyard.com/*",
+        "*://vidyard.com/*",
+        "*://*.vimeo.com/*",
+        "*://vimeo.com/*",
+        "*://*.wistia.com/*",
+        "*://wistia.com/*",
+        "*://*.x.com/*",
+        "*://x.com/*",
+        "*://*.youtube.com/*",
+        "*://youtube.com/*"
+      ],
+      "js": ["controller.js"],
+      "run_at": "document_end",
+      "all_frames": true
+    }
+  ]
+}
